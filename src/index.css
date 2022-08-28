@@ -3,6 +3,14 @@
 @tailwind utilities;
 
 
-.App{
-  @apply bg-green-900 text-white
+*{
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Permanent Marker', cursive; */
+    /* font-family: 'Roboto Slab', serif; */
+    /* font-family: 'Source Sans Pro', sans-serif; */
+}
+body{
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
 }

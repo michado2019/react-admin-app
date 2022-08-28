@@ -1,0 +1,53 @@
+.latestTrans-wrapper{
+    @apply text-[#fff] bg-[#212121] px-4 pt-4 m-4 rounded-xl max-w-[300px] h-[250px] 
+}
+.latestTrans-title{
+  font-family: 'Permanent Marker', cursive;
+    @apply text-[#ffc107] text-[12px] font-bold pb-1
+}
+.latestTrans-flex{
+    @apply flex items-center pt-4
+}
+.latestTrans-img{
+    @apply rounded-[50%] w-6 h-6 mr-2 
+}
+.latestTrans-details{
+    @apply mr-2
+}
+.latestTrans-name{
+    @apply font-semibold text-[#d7d7d7] text-[11px]
+}
+.latestTrans-time{
+    @apply font-medium text-[9px]
+}
+.latestTrans-price{
+    @apply font-medium text-[#ffc107] bg-[#555] px-1 rounded-[40%] text-[9px]
+}
+.latestTrans-all_flex{
+  @apply flex text-[#ffc107] cursor-pointer items-center float-right pt-5
+}
+.latestTrans-all{
+    @apply text-[10px] 
+}
+.latestTrans-arrow{
+    @apply text-[10px] pl-1 !important
+}
+
+@media (max-width: 790px) {
+    .latestTrans-wrapper{
+     @apply max-w-[100%] h-[200px] mx-3
+        
+    }
+    .latestTrans-title{
+          @apply text-[14px] 
+      }
+      .latestTrans-name{
+        @apply text-[13px]
+    }
+    
+}
+@media (max-width: 300px) {
+    .latestTrans-name{
+        @apply text-[10px]
+    }
+}

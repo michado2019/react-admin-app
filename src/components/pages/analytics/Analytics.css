@@ -1,0 +1,46 @@
+.analyticsWrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    @apply flex-1 mr-4 text-[#fff] gap-4 ml-4
+}
+.analyticsSpent{
+    @apply flex w-[100%] items-center justify-between px-7 py-5 rounded-xl bg-[#212121] 
+}
+.analyticsSpent-details{
+    @apply font-semibold
+}
+.analyticsSpent-month{
+    @apply text-[13px]
+}
+.analyticsSpent-amount{
+    @apply font-semibold text-[20px]
+}
+.analyticsSpent-icons_div{
+    @apply bg-[#111] rounded-[50%]
+}
+.analyticsSpent-icons_div:hover{
+    transition: all 0.5s;
+    @apply  text-[#ffc107]
+}
+.analyticsSpent-icons{
+    @apply   m-4 
+}
+@media (max-width: 400px) {
+    .analyticsWrapper{
+        @apply grid-cols-1
+    }
+}
+@media (max-width: 690px) {
+    .analyticsWrapper{
+        @apply w-[94%] my-4
+    }
+}
+@media (max-width: 790px) {
+    .analyticsWrapper{
+        @apply h-[100px]
+    }
+    .analyticsSpent{
+        @apply h-[100px]
+
+    }
+}

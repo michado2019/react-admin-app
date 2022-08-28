@@ -1,0 +1,21 @@
+.chartWrapper{
+    @apply rounded-xl bg-[#212121] m-4 px-4 pt-4 pb-16 w-[300px] h-[250px] 
+}
+.chartTitle{
+    @apply text-[#fff] pb-8
+}
+@media (max-width: 400px) {
+    .chartWrapper{
+        @apply ml-2 
+    }
+}
+@media (max-width: 560px) {
+    .chartWrapper{
+        @apply w-[94%]
+    }
+}
+@media (max-width: 790px) {
+   .chartWrapper{
+     @apply max-w-[100%] h-[200px]   
+}
+}

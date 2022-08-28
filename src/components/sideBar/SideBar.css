@@ -1,0 +1,92 @@
+.sideBar-wrapper {
+  position: sticky;
+  top: 0;
+  left: 0;
+  @apply flex-1 bg-[#2d2d2d] h-[100vh] p-4 flex flex-col items-start
+}
+.sideBar-cancel_icon{
+  display: none !important;
+  @apply cursor-pointer
+}
+.sideBar-logo_div {
+  @apply flex py-7  text-[#ffc107] items-center pl-2
+}
+.sideBar-logo{
+  @apply mr-6 
+}
+.sideBar-logo_text {
+  font-family: "Permanent Marker", cursive;
+  @apply font-extrabold text-[22px] italic;
+}
+.sideBar-list {
+  @apply m-2 text-[#c6c4c4];
+}
+.sideBar-list_flex {
+  @apply flex py-1 items-center px-2 my-2
+}
+.sideBar-list_flex:hover {
+  transition: all 0.3s;
+  @apply bg-gray-800 border-b-2 text-[#f3f3f3] border-[#ffc107];
+}
+.sideBar-list_items {
+  @apply text-[#464444] bg-[#ffc107] rounded-lg;
+}
+ .sideBar-list_icons {
+  @apply w-5 !important
+}
+.sideBar-icon_texts {
+ transition: all 0.3s;
+  @apply text-[13px] font-bold pl-2 
+}
+.logOut {
+  @apply mt-20 text-[#d7d6d6] flex px-3 top-0 left-0 ml-14
+}
+.logOut-text {
+  @apply font-bold; 
+}
+.logOut:hover {
+    transition: all 0.3s;
+    @apply bg-[#cf1205] rounded-sm cursor-pointer
+  }
+  @media (max-width: 280px) {
+    .sideBar-list_items {
+      @apply bg-inherit
+    }
+  }
+  @media (max-width: 940px) {
+    .sideBar-wrapper {
+      display: none;
+      @apply h-[40%] w-[150px] absolute
+    }
+    .sideBar-cancel_icon{
+      display: block !important;
+      @apply ml-3
+    }
+    .sideBar-logo_div {
+      @apply flex pt-0 pb-1 items-center pl-0
+    }
+    .sideBar-logo{
+      @apply mr-2
+    }
+    .sideBar-logo_text {
+      @apply text-[15px];
+    }
+    .sideBar-list {
+      @apply m-1 
+    }
+    .sideBar-list_flex {
+      @apply py-0 px-0 my-0
+    }
+    .sideBar-icon_texts {
+      @apply text-[12px] font-semibold 
+    }
+    .logOut {
+      @apply mt-4 px-0 ml-3
+    }
+    .logOut-icon{
+      @apply w-5 h-5 !important
+    }
+    .logOut-text {
+      @apply font-semibold text-[12px]; 
+    }
+  }

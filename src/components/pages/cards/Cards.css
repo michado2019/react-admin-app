@@ -1,0 +1,16 @@
+.cardsWrapper {
+  @apply text-[#fff] flex justify-evenly;
+}
+
+
+@media (max-width: 790px) {
+  .cardsWrapper {
+    @apply text-[#fff] grid grid-cols-2 gap-2;
+  }
+}
+@media (max-width: 560px) {
+    .cardsWrapper {
+      @apply grid grid-cols-1 gap-2
+      
+    }
+  }

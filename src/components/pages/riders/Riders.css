@@ -1,0 +1,21 @@
+.ridersWrapper{
+    @apply flex-[5] text-[#ffffff] h-[100%] p-5 m-5
+}
+.ridersUser-div{
+    @apply flex items-center
+}
+.ridersUser-avatar{
+    @apply rounded-[50%] object-cover w-10 h-10 mr-1 
+}
+.ridersUser-name{
+    @apply font-semibold
+}
+.ridersEdit-div{
+    @apply flex
+}
+.ridersEdit-btn{
+    @apply bg-green-500 px-2 rounded-[30%] text-[#fff] mr-2 font-medium
+}
+.ridersDelete-icon{
+    @apply text-red-600 cursor-pointer
+}

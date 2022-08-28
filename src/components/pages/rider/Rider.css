@@ -1,0 +1,103 @@
+.riderWrapper{
+    @apply text-[#fff] flex-[5] bg-[#111] p-5 
+}
+.riderTop-bar{
+    @apply flex items-center justify-between px-8
+}
+.riderTitle{
+    @apply font-bold
+}
+.riderNew-rider{
+    @apply bg-[#a88417] rounded-sm px-2 py-1 text-[12px] font-semibold
+}
+.riderFlex{
+    @apply flex 
+}
+.riderDetails-div{
+    @apply bg-[#212121] p-5 rounded-2xl w-[30%] mt-4 h-[50%]
+}
+.riderDetails{
+    @apply flex items-center mb-2
+}
+.riderDetails-img{
+    @apply w-10 h-10 object-cover rounded-[50%] mr-2
+}
+.riderDetails-info_name{
+    @apply font-semibold
+}
+.riderDetails-info_job{
+    @apply text-[14px] text-[#e7e7e7]
+}
+.riderDetails-labels{
+    @apply text-[12px] text-[#c6c6c6]
+}
+.riderDetails-flex{
+    @apply flex items-center my-2
+}
+.riderDetails-icons{
+    @apply w-4 h-4 mr-3 !important
+}
+.riderDetails-icons_text{
+    @apply text-[14px]
+}
+.riderEdit-div{
+    @apply flex bg-[#212121] rounded-2xl m-5 p-5 w-[100%] px-[10%] 
+}
+.riderEdit-title{
+    @apply text-[16px] font-semibold
+}
+.riderEdit-labels{
+    font-family: 'Permanent Marker', cursive;
+    @apply text-[#dddddd] text-[12px] block
+}
+.riderEdit-form_input{
+    @apply mt-2 p-2 rounded-sm text-[#4e4d4d] outline-none text-[12px] w-[100%]
+}
+.riderEditSection-two_flex{
+    @apply flex justify-between items-center mr-16 pt-10
+}
+.riderEditSection-two_flex2{
+    @apply flex items-center justify-between mr-16
+}
+.riderEditSection-two_input{
+    display: none;
+}
+.riderEditSection-two_icon{
+    @apply text-[#ffc107] cursor-pointer
+}
+.riderEditSection-two_img{
+    @apply w-24 h-24 rounded-lg mr-4
+}
+.riderEditSection-two_btn{
+    @apply bg-[#a88417] rounded-sm px-4 py-1 font-semibold text-[12px]
+}
+
+@media (max-width: 280px) {
+    .riderWrapper{
+        @apply w-[250px] px-0
+    }
+    .riderDetails-div{
+        @apply w-[250px] px-0
+    }
+} 
+@media (max-width: 340px) {
+    .riderWrapper{
+        @apply px-0 rounded-none
+    }
+    .riderTop-bar{
+        @apply px-5
+    }
+    .riderEdit-div{
+        @apply rounded-none w-[100%] px-2 mx-2 
+    }
+} 
+
+@media (max-width: 630px) {
+    .riderFlex{
+        @apply flex-col items-center justify-between 
+    }
+    .riderDetails-div{
+        @apply bg-[#212121] p-5 rounded-none w-[100%] mt-4 h-[50%]
+    }
+}
+

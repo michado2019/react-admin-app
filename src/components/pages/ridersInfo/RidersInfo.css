@@ -1,0 +1,39 @@
+.ridersInfo-wrapper {
+  @apply flex-[1]  text-[#fff] w-[100%] items-center justify-between rounded-2xl bg-[#212121] p-4 mr-4
+}
+.ridersInfo-title{
+  font-family: 'Permanent Marker', cursive;
+  @apply text-[#ffc107] font-bold
+}
+.ridersInfo-div {
+  @apply border-b-[1px] flex pt-4 border-zinc-600;
+}
+.ridersInfo-div:hover{
+    transition: all 0.5s;
+    @apply  border-[#ffc107] cursor-pointer
+}
+.ridersInfo-icons {
+  @apply w-5 mr-2 !important;
+}
+.ridersInfo-text {
+  @apply pb-2 mr-auto;
+}
+@media (max-width: 690px) {
+  .ridersInfo-wrapper {
+    @apply w-[94%] ml-4 
+  }
+}
+@media (max-width: 790px) {
+  .ridersInfo-wrapper {
+    @apply h-[218px]
+  }
+  .ridersInfo-title{
+    @apply text-[12px] mb-4
+  }
+  .ridersInfo-div {
+    @apply pt-2
+  }
+  .ridersInfo-text {
+    @apply pb-1 text-[12px]
+  }
+  }

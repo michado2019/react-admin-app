@@ -1,0 +1,16 @@
+.paymentWrapper{
+    flex: 4;
+    box-shadow: -5px -2px 21px -12px rgba(135,129,129,0.73);
+    -webkit-box-shadow: -5px -2px 21px -12px rgba(135,129,129,0.73);
+    -moz-box-shadow: -5px -2px 21px -12px rgba(135,129,129,0.73);
+    @apply p-10 m-5 text-[18px]
+}
+.paymentUser{
+    @apply flex items-center
+}
+.paymentImg{
+    @apply rounded-[50%]  w-8 h-8 mr-2 
+}
+.paymentDelete-icon{
+    @apply text-red-700 cursor-pointer
+}

@@ -1,0 +1,47 @@
+.newRider-wrapper{
+   @apply p-5 flex-[4] m-5 
+}
+.newRider-title{
+@apply font-semibold text-[20px]
+}
+
+.newRider-form{
+    @apply text-[16px] flex justify-between pt-10 flex-wrap
+}
+.newRider-form_flex1{
+    @apply flex-1
+}
+.newRider-form_flex2{
+    @apply flex-1
+}
+.newRider-flex{
+    @apply flex flex-col 
+}
+.newRider-gender{
+    @apply mx-2 
+}
+.newRider-labels{
+    @apply text-[18px] text-[#484848]
+}
+
+.newRider-form_group{
+    @apply border-2 p-1 w-[400px] justify-between mt-1 outline-none
+}
+
+#action{
+    @apply mt-3 block
+}
+.newRider-select{
+    @apply  border-2 p-1 w-[400px] mt-2
+}
+.newRider-btn{
+    @apply bg-[#ffc107] w-32 rounded-[5px] text-white mt-10
+}
+@media (max-width: 800px) {
+    .newRider-form_group{
+        @apply w-[200px] 
+    } 
+    .newRider-select{
+        @apply w-[200px] 
+    }
+}

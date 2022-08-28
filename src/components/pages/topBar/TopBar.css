@@ -1,0 +1,60 @@
+.topBar-wrapper{
+    @apply flex-[5] text-[#fff] pb-4
+}
+.topBar-top{
+    @apply p-3 flex items-center justify-between
+}
+.topBar-top:hover{
+    transition: all 0.5s;
+    @apply border-b-2 border-[#ffc107] 
+}
+
+.topBar-top_welcome{
+    @apply px-1
+}
+.topBar-menu_icon{
+    display:none !important
+}
+.topBar-top_name{
+    @apply text-[20px] mb-[-5px]
+}
+.topBar-top_greetings{
+    @apply font-bold  text-[18px]
+}
+.topBar-top_app{
+    font-family: 'Permanent Marker', cursive;
+    @apply text-[#ffc107] pl-3 font-semibold
+}
+.topBar-search{
+    font-family: 'Permanent Marker', cursive;
+    @apply rounded-md px-7 py-2 italic bg-[#212121] text-[#ffc107] text-[15px] cursor-pointer outline-none mr-1 pr-2
+}
+@media (max-width: 320px) {
+    .topBar-top_name{
+        @apply text-[12px] pt-4 ml-[2px]
+    }
+    .topBar-top_greetings{
+        @apply font-bold  text-[12px] ml-[1px]
+    }
+}
+
+@media (max-width: 560px) {
+    .topBar-wrapper{
+        @apply px-4 pt-4
+    }
+    .topBar-top{
+        @apply p-3 flex-col items-start
+    }
+}
+@media (max-width: 940px) {
+    .topBar-menu_icon{
+        display: block !important;
+        @apply mb-3
+    }
+    .topBar-top_greetings{
+        @apply font-bold  text-[15px] 
+    }
+    .topBar-search{
+        @apply py-1 text-[13px] mt-4
+    }
+}
