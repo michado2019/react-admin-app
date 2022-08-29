@@ -7,7 +7,7 @@ export default function LatestTrans() {
      <h1 className='latestTrans-title'>Latest Transactions</h1>
 
       <div className='latestTrans-flex'>
-      <img src='../images/my--profile_pix (2).jpg' alt='img' className='latestTrans-img' />
+      <img src='https://img.icons8.com/external-others-inmotus-design/2x/external-Avatar-man-hair-avatars-others-inmotus-design-10.png' alt='img' className='latestTrans-img' />
       <div className='latestTrans-details'>
       <h1 className='latestTrans-name'>From Michael Adeshina</h1>
       <p className='latestTrans-time'>{}</p>
@@ -16,7 +16,7 @@ export default function LatestTrans() {
       </div>
       
       <div className='latestTrans-flex'>
-      <img src='./images/my--profile_pix (2).jpg' alt='img' className='latestTrans-img' />
+      <img src='https://img.icons8.com/external-others-inmotus-design/2x/external-Avatar-man-hair-avatars-others-inmotus-design-10.png' alt='img' className='latestTrans-img' />
       <div className='latestTrans-details'>
       <h1 className='latestTrans-name'>From Michael Adeshina</h1>
       <p className='latestTrans-time'>{}</p>
@@ -25,7 +25,7 @@ export default function LatestTrans() {
       </div>
 
       <div className='latestTrans-flex'>
-      <img src='./images/my--profile_pix (2).jpg' alt='img' className='latestTrans-img' />
+      <img src='https://img.icons8.com/external-others-inmotus-design/2x/external-Avatar-man-hair-avatars-others-inmotus-design-10.png' alt='img' className='latestTrans-img' />
       <div className='latestTrans-details'>
       <h1 className='latestTrans-name'>From Michael Adeshina</h1>
       <p className='latestTrans-time'>{}</p>

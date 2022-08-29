@@ -16,7 +16,7 @@ export default function Rider() {
       <div className='riderFlex'>
         <div className='riderDetails-div'>
           <div className='riderDetails'>
-            <img src='../images/my--profile_pix (2).jpg' alt='img' className='riderDetails-img' />
+            <img src='https://img.icons8.com/external-others-inmotus-design/2x/external-Avatar-man-hair-avatars-others-inmotus-design-10.png' alt='img' className='riderDetails-img' />
             <div className='riderDetails-info'>
               <div className='riderDetails-info_name'>Mike Adeshina</div>
               <div className='riderDetails-info_job'>Software Engineer</div>
@@ -64,7 +64,7 @@ export default function Rider() {
             <div className='riderEdit-section_two'>
               <div className='riderEditSection-two_flex'>
                  <div className='riderEditSection-two_flex2'>
-                  <img src='../images/my--profile_pix (2).jpg' alt='img' className='riderEditSection-two_img' />
+                  <img src='https://img.icons8.com/external-others-inmotus-design/2x/external-Avatar-man-hair-avatars-others-inmotus-design-10.png' alt='img' className='riderEditSection-two_img' />
                   <label htmlFor='riderEditSection-two_btn'><Publish className='riderEditSection-two_icon' /></label>
                   <input type='file' className='riderEditSection-two_input' id='riderEditSection-two_btn'/>
                  </div>
