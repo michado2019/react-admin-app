@@ -17,7 +17,7 @@ export default function SideBar() {
          <CancelOutlined className='sideBar-cancel_icon' onClick={handleSidebarCancel}/>
             </div>
          <ul className='sideBar-list'>
-            <Link to='/'>
+            <Link to='/react-admin-app'>
                <li className={currentLink === 1 ? 'sideBar-list_items' : ''} onClick={() => setCurrentLink(1)}>
                   <div className='sideBar-list_flex'>
                      <DashboardOutlined className='sideBar-list_icons' />

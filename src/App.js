@@ -16,7 +16,7 @@ function App() {
         <div className="appFlex">
         <SideBar />
         <Routes>
-          <Route path='/' element={<DashBoard />} />
+          <Route path='/react-admin-app' element={<DashBoard />} />
         </Routes>
         <Routes>
           <Route path='/riders' element={<Riders />} />
