@@ -56,7 +56,7 @@
   @media (max-width: 940px) {
     .sideBar-wrapper {
       display: none;
-      @apply h-[100%] w-[150px] absolute
+      @apply h-[110%] w-[70%] absolute
     }
     .sideBar-cancel_icon{
       display: block !important;
