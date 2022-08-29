@@ -7,7 +7,7 @@ export default function RiderSnapShotInfo() {
     <div className='riderSnapShotInfoWrapper'>
       <div className='riderSnapShotInfo-div'>
         <div className='riderSnapShotInfo-img_div'>
-        <img src='./images/my--profile_pix (2).jpg' alt='img' className='riderSnapShotInfo-img' />
+        <img src='../images/my--profile_pix (2).jpg' alt='img' className='riderSnapShotInfo-img' />
         </div>
         <h1 className='riderSnapShotInfo-name'>Mike Adeshina</h1>
         <div className='riderSnapShotInfo-location'>
