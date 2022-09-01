@@ -10,10 +10,10 @@
     @apply font-semibold
 }
 .analyticsSpent-month{
-    @apply text-[13px]
+    @apply text-[12px] text-[#cccbcb]
 }
 .analyticsSpent-amount{
-    @apply font-semibold text-[20px]
+    @apply font-semibold text-[24px]
 }
 .analyticsSpent-icons_div{
     @apply bg-[#111] rounded-[50%]

@@ -2,11 +2,10 @@
   @apply flex-[1]  text-[#fff] w-[100%] items-center justify-between rounded-2xl bg-[#212121] p-4 mr-4
 }
 .ridersInfo-title{
-  font-family: 'Permanent Marker', cursive;
   @apply text-[#ffc107] font-bold
 }
 .ridersInfo-div {
-  @apply border-b-[1px] flex pt-4 border-zinc-600;
+  @apply border-b-[1px] flex pt-4 border-zinc-600 text-[16px];
 }
 .ridersInfo-div:hover{
     transition: all 0.5s;

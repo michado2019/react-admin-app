@@ -12,7 +12,6 @@
     @apply   m-4 rounded-[50%] w-20 h-20 my-4
 }
 .riderSnapShotInfo-name{
-    font-family: 'Permanent Marker', cursive;
     @apply text-[12px] font-bold text-[#ffc107] 
 }
 .riderSnapShotInfo-location{
@@ -22,7 +21,6 @@
     @apply text-[10px] mr-1 !important
 }
 .riderSnapShotInfo-location_details{
-    font-family: 'Permanent Marker', cursive;
     @apply text-[#ffc107] 
 }
 .riderSnapShotInfo-update{
