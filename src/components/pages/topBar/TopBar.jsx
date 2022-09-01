@@ -16,7 +16,7 @@ function handleDisplayMenuContent(){
         <div className='topBar-top_welcome'>
           <MenuOutlined className='topBar-menu_icon' onClick={handleDisplayMenuContent}/>
           <h1 className='topBar-top_name'>Hi, Sam Afolabi, </h1>
-          <p className='topBar-top_greetings'>Welcome to<span className='topBar-top_app'>my Admin Dashboard</span></p>
+          <p className='topBar-top_greetings'>Welcome to<span className='topBar-top_app'>Admin Dashboard</span></p>
         </div>
         <div className='topBar-search_div'>
           <input type='search' placeholder='search....' className='topBar-search' />
