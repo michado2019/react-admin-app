@@ -10,23 +10,22 @@
 }
 
 .topBar-top_welcome{
-    @apply px-1
+    line-height: 36px;
+    @apply px-1 text-[24px]
 }
 .topBar-menu_icon{
     display:none !important
 }
 .topBar-top_name{
-    @apply text-[20px] mb-[-5px]
+    @apply mb-[-5px]
 }
 .topBar-top_greetings{
-    @apply font-bold  text-[18px]
+    @apply font-bold 
 }
 .topBar-top_app{
-    font-family: 'Permanent Marker', cursive;
     @apply text-[#ffc107] pl-3 font-semibold
 }
 .topBar-search{
-    font-family: 'Permanent Marker', cursive;
     @apply rounded-md px-7 py-2 italic bg-[#212121] text-[#ffc107] text-[15px] cursor-pointer outline-none mr-1 pr-2
 }
 @media (max-width: 320px) {
