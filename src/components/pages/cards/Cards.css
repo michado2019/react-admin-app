@@ -1,5 +1,5 @@
 .cardsWrapper {
-  @apply text-[#fff] flex justify-evenly;
+  @apply text-[#fff] flex justify-evenly mt-4;
 }
 
 
@@ -8,9 +8,20 @@
     @apply text-[#fff] grid grid-cols-2 gap-2;
   }
 }
+@media (max-width: 780px) {
+  .cardsWrapper {
+    @apply text-[#fff] grid-cols-none px-[5%]
+  }
+}
 @media (max-width: 560px) {
     .cardsWrapper {
-      @apply grid grid-cols-1 gap-2
+      @apply grid grid-cols-1 gap-2 mx-2
       
     }
   }
+  @media (max-width: 470px) {
+    .cardsWrapper {
+      @apply max-w-[100%] px-0 ml--2
+      
+    }
+  }  

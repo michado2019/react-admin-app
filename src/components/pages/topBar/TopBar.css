@@ -39,7 +39,7 @@
 
 @media (max-width: 560px) {
     .topBar-wrapper{
-        @apply px-4 pt-4
+        @apply px-0 pt-4
     }
     .topBar-top{
         @apply p-3 flex-col items-start
@@ -54,6 +54,6 @@
         @apply font-bold  text-[15px] 
     }
     .topBar-search{
-        @apply py-1 text-[13px] mt-4
+        @apply py-1 text-[13px] mt-4 ml-1
     }
 }

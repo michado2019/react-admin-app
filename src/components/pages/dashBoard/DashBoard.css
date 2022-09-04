@@ -1,5 +1,5 @@
 .dashBoard-wrapper{
-    @apply flex-[5] bg-[#111]
+    @apply flex-[5] bg-[#111] 
 }
 .dashBoard-flex{
     @apply flex text-[#fff] 

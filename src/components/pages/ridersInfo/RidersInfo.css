@@ -17,11 +17,17 @@
 .ridersInfo-text {
   @apply pb-2 mr-auto;
 }
+@media (max-width: 560px) {
+  .ridersInfo-wrapper {
+    @apply px-10
+  }
+}
 @media (max-width: 690px) {
   .ridersInfo-wrapper {
     @apply w-[94%] ml-4 
   }
 }
+
 @media (max-width: 790px) {
   .ridersInfo-wrapper {
     @apply h-[218px]

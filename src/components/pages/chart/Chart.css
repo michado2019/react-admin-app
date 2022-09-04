@@ -1,21 +1,38 @@
-.chartWrapper{
-    @apply rounded-xl bg-[#212121] m-4 px-4 pt-4 pb-16 w-[300px] h-[250px] 
+.chartWrapper {
+  @apply rounded-xl bg-[#212121] m-4 px-4 pt-4 pb-16 w-[320px] h-[270px]  
 }
-.chartTitle{
-    @apply text-[#fff] pb-8
+.chartTitle {
+  @apply text-[#fff] pb-8;
+}
+@media (max-width: 425px) {
+  .chartWrapper {
+    @apply min-w-[90%] !important
+    
+  }
 }
 @media (max-width: 400px) {
-    .chartWrapper{
-        @apply ml-2 
-    }
+  .chartWrapper {
+    @apply ml-4 mx-4 max-w-[90%] !important
+  }
 }
-@media (max-width: 560px) {
-    .chartWrapper{
-        @apply w-[94%]
-    }
+
+@media (max-width: 780px) {
+  .chartWrapper {
+    @apply min-w-[600px] !important
+  }
 }
 @media (max-width: 790px) {
-   .chartWrapper{
-     @apply max-w-[100%] h-[200px]   
+  .chartWrapper {
+    @apply w-[370px] max-h-[250px] !important
+  }
 }
+@media (max-width: 560px) {
+  .chartWrapper {
+    @apply min-w-[93%] !important; 
+  }
+}
+@media (max-width: 320px) {
+  .chartWrapper{
+      @apply max-w-[100%] mx-0 mr-4 mt-6 !important 
+  }
 }
